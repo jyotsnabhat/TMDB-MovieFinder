@@ -11,7 +11,11 @@ const Movie = props => {
 
                 <Link
                     to={`movie/${movie.id}`}
-                ><span className="user-score">{movie.vote_average * 10}%</span><img className="card-img-top img-rounded"
+                ><span className={(movie.vote_average >6.9)
+                                   ? "score-color-high user-score"
+                                   : (movie.vote_average >3.9
+                                    ? "score-color-medium user-score"
+                                    : "score-color-low user-score")}>{movie.vote_average * 10}%</span><img className="card-img-top img-rounded"
                                                              src={"https://image.tmdb.org/t/p/w185"
                                                              + movie.poster_path} alt="poster"/>
                 </Link>

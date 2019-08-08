@@ -3,7 +3,8 @@ import axios from "axios";
 import {Link} from "react-router-dom";
 import Spinner from "../layout/Spinner";
 import Moment from "react-moment";
-import moment from "moment-duration-format";
+import * as moment from "moment";
+
 
 const MovieDetails = props => {
     const [movie, setMovie] = useState({});
@@ -25,6 +26,7 @@ const MovieDetails = props => {
     if (movie === undefined || Object.keys(movie).length === 0) {
         return <Spinner/>;
     } else {
+
         return (
             <>
                 <header>
@@ -57,14 +59,11 @@ const MovieDetails = props => {
                                 </div>
                             </div>
                             <div className="col-xs-6 overview">
-                                {/*<Moment format="h [hr] m [min]">*/}
                                 {movie.movie.runtime}
-                                {/*{moment.duration(movie.movie.runtime, "minutes").format("h [hr] m [min]")}*/}
-                                {/*</Moment>*/}
                             </div>
                         </div>
                     </div>
-                    <hr className="primary-color" />
+                    <hr/>
                     <div>
                         <h3 className="font-weight-bold my-3 titles">
                             Overview
