@@ -43,38 +43,41 @@ const MovieDetails = props => {
         </header>
         <div className="container">
           <div className="row">
-            <div className="col-6">
+            <div className="col-5">
               <img src={"https://image.tmdb.org/t/p/w185" + movie.movie.poster_path}
                    className="poster img-responsive poster-w img-shadow"/>
             </div>
-            <div className="col-6">
+            <div className="col-7 my-3">
               <h3 className="titles">{movie.movie.original_title}</h3>
               <div className="row">
-                <div className="col-xs-6 overview mx-1">
+                <div className="col-2 overview ml-1 small">
                   <Moment format="YYYY">
                     {movie.movie.release_date}
                   </Moment>
                 </div>
-                <span className="overview mx-1">&middot;</span>
-                <div className="col-xs-6 overview mx-1">
+                <span className="overview ml-3">&middot;</span>
+                <div className="col-7 overview small">
                   {movie.movie.vote_average * 10} % User Score
                 </div>
               </div>
-              <div className="col-xs-6 overview">
+              <div className="row">
+              <div className="col-12 overview mx-1 small">
                 {hours} hr {minutes} min
+              </div>
               </div>
             </div>
           </div>
           <hr/>
-          <div>
-            <h3 className="font-weight-bold my-3 titles">
+        </div>
+        <div className="container">
+          <div style={{marginTop:"5%"}}>
+            <h5 className="my-3 titles">
               Overview
-            </h3>
+            </h5>
             <div className="overview">
               {movie.movie.overview}
             </div>
           </div>
-
         </div>
       </>
     );

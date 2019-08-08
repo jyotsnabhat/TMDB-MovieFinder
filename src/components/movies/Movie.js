@@ -21,9 +21,9 @@ const Movie = props => {
                + movie.poster_path} alt="poster"/>
         </Link>
         <div className="card-body back-color px-0">
-          <div className="card-text text-white font-weight-light">
-            <div className="titles">{movie.original_title}</div>
-            <div className="overview">
+          <div className="card-text font-weight-light">
+            <div className="titles small">{movie.original_title}</div>
+            <div className="overview small">
               <Moment format="MMMM YYYY">
                 {movie.release_date}
               </Moment>

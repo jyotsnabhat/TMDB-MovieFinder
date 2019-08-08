@@ -69,24 +69,25 @@ body {
 .arrow-position {
     position: absolute;
     margin-top: 7%;
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: larger;
 }
 
 .poster {
-    position: absolute;
-    margin-top: -50%;
+    margin-top: -40%;
 }
 
 .poster-w {
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
     text-align: center;
 }
 
 hr {
-    color: #233c56;
-    background-color: #233c56;
+    color: #043b48;
+    background-color: #043b48;
+    height: 1px;
+    border: none;
 }
 
 .img-shadow {
