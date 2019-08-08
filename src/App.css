@@ -1,0 +1,75 @@
+body {
+
+    background-color: #081c24;
+}
+
+.back-color {
+    background-color: #081c24;
+}
+
+.img-rounded {
+    border-radius: 15px;
+}
+
+.border-custom-radius {
+    border-radius: 25px;
+}
+
+.primary-color::placeholder {
+    color: #01d277;
+}
+
+.primary-color {
+    color: #01d277;
+}
+
+.search {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 18px;
+    left: 90%;
+    font-size: 15px;
+}
+
+.overview {
+    color: #bbe0f7;
+    font-weight: lighter;
+}
+
+.titles {
+    color: #ebf3fb;
+}
+
+.user-score {
+    background-color: #01d277;
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.arrow-position {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+.poster {
+    position: absolute;
+    margin-top: -50%;
+}
+
+.poster-w {
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
