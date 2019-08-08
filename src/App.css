@@ -1,5 +1,4 @@
 body {
-
     background-color: #081c24;
 }
 
@@ -37,16 +36,15 @@ body {
 }
 
 .overview {
-    color: #bbe0f7;
+    color: #89a1b1;
     font-weight: lighter;
 }
 
 .titles {
-    color: #ebf3fb;
+    color: #d0e1ef;
 }
 
 .user-score {
-
     position: absolute;
     border-radius: 8px;
     margin-top: 5%;
@@ -63,9 +61,11 @@ body {
 .score-color-medium {
     background-color: #452692;
 }
+
 .score-color-low {
     background-color: #bd24b8;
 }
+
 .arrow-position {
     position: absolute;
     margin-top: 7%;
@@ -85,6 +85,10 @@ body {
 }
 
 hr {
+    color: #233c56;
+    background-color: #233c56;
+}
 
-    color: #ebf3fb;
+.img-shadow {
+    box-shadow: 3px 8px 10px 5px black;
 }
