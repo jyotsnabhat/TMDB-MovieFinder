@@ -4,13 +4,13 @@ import Search from "../movies/Search";
 import Navbar from "./Navbar";
 
 const Index = () => {
-    return (
-        <React.Fragment>
-            <Navbar/>
-            <Search/>
-            <Movies/>
-        </React.Fragment>
-    );
+  return (
+    <React.Fragment>
+      <Navbar/>
+      <Search/>
+      <Movies/>
+    </React.Fragment>
+  );
 };
 
 export default Index;

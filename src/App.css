@@ -2,6 +2,14 @@ body {
     background-color: #081c24;
 }
 
+
+hr {
+    color: #043b48;
+    background-color: #043b48;
+    height: 1px;
+    border: none;
+}
+
 .back-color {
     background-color: #081c24;
 }
@@ -44,16 +52,6 @@ body {
     color: #d0e1ef;
 }
 
-.user-score {
-    position: absolute;
-    border-radius: 8px;
-    margin-top: 5%;
-    margin-left: 5%;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .score-color-high {
     background-color: #01d277;
 }
@@ -83,13 +81,17 @@ body {
     text-align: center;
 }
 
-hr {
-    color: #043b48;
-    background-color: #043b48;
-    height: 1px;
-    border: none;
-}
 
 .img-shadow {
     box-shadow: 3px 8px 10px 5px black;
+}
+
+.user-score {
+    position: absolute;
+    border-radius: 8px;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }

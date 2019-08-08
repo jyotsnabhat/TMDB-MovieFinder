@@ -5,7 +5,6 @@ import Movie from "./Movie";
 
 const Movies = () => {
   const [state] = useContext(Context);
-  console.log(state);
   const { movies, heading } = state;
 
   if (movies === undefined || movies.length === 0) {
