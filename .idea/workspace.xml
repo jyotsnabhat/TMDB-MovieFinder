@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51fadd41-75ad-4797-a0a4-5b51bbf9ed4b" name="Default Changelist" comment="production build">
       <change afterPath="$PROJECT_DIR$/build/static/js/2.f944cb70.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.4ec1d830.chunk.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -129,8 +127,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="345" />
-    <option name="y" value="27" />
+    <option name="x" value="237" />
+    <option name="y" value="23" />
     <option name="width" value="940" />
     <option name="height" value="873" />
   </component>
@@ -216,7 +214,7 @@
       <workItem from="1565212390101" duration="1172000" />
       <workItem from="1565213882711" duration="62000" />
       <workItem from="1565214106024" duration="1921000" />
-      <workItem from="1565230749649" duration="849000" />
+      <workItem from="1565230749649" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="node modules">
       <created>1565231308215</created>
@@ -239,14 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565231593812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="production build">
+      <created>1565231616751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565231616751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42946000" />
+    <option name="totallyTimeSpent" value="43210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="345" y="27" width="940" height="873" extended-state="0" />
+    <frame x="237" y="23" width="940" height="873" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21436344" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
